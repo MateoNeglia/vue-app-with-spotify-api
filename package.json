@@ -1,5 +1,5 @@
 {
-  "name": "parcial2-neglia-mateo",
+  "name": "Listeners_Choice",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "@mdi/font": "^7.3.67",
+    "animate.css": "^4.1.1",
+    "bcryptjs": "^2.4.3",
+    "bootstrap-vue": "^2.22.0",
     "core-js": "^3.8.3",
-    "vue": "^2.6.14",
-    "vue-router": "^3.5.1"
+    "vue": "2.6",
+    "vue-router": "^3.5.1",
+    "vuetify": "^2.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -19,8 +24,15 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
+    "bootstrap": "^4.6.1",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "sass": "~1.32.0",
+    "sass-loader": "^10.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.1",
+    "vue-template-compiler": "^2.6.14",
+    "vuetify-loader": "^1.7.0"
   }
 }

@@ -1,0 +1,181 @@
+/*Color Palette: https://coolors.co/palette/ede0d4-e6ccb2-ddb892-b08968-7f5539-9c6644 */
+:root {
+    --color-1: #ede0d4;
+    --color-2: #e6ccb2;
+    --color-3: #ddb892;
+    --color-4: #b08968;
+    --color-5: #7f5539!important;
+    --color-6: #9c6644!important;
+    --green-checked: #e9edc9!important;
+    --green-enabled: #8BBD78!important;
+    --orange-medium: #ff8b3d!important;
+    --red-danger: #FA4353!important;
+  }
+
+#logo {
+    width: 125px;
+    height: 35px;
+    background: url(full-main-logo.svg) center center no-repeat;
+    font-size: 0;
+     
+}
+
+@media screen and (max-width:991px) {
+    #logo {
+        width: 45px;        
+        background: url("page-logo.svg") center center no-repeat;
+        left: calc(50% - 30px);
+    }
+
+    .nav-container {
+        padding: 1em!important;
+    }
+
+    #submit {
+        width: 100%!important;
+    }
+
+    #adaptable-text {
+        font-size: .7rem;
+    }
+}
+
+.custom-nav-link {	
+    font-size: .8rem;
+}
+
+.card-bg {
+    background-color: #EDE0D4!important;
+}
+
+.green-score {
+    background-color: var(--green-enabled)!important;
+}
+
+.orange-score {
+    background-color: var(--orange-medium)!important;
+}
+
+.red-score {
+    background-color: var(--red-danger)!important;
+}
+
+header, .review-card {   
+    background-color: #EDE0D4!important;
+    color: #7f5539!important;
+}
+
+.nav-bar nav ul li a {
+    color: #7f5539;
+    text-transform: uppercase;    
+}
+
+.main-landing-text {
+    color: var(--color-1)!important;
+    font-weight: 600!important;
+    line-height: 1.5rem!important;
+}
+
+
+.delete-button {
+    background-color: #FA4353!important;
+    color: #ede0d4!important;
+}
+
+.form form {    
+    background-color: #ddb892;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    border-radius: 1em;
+}
+
+h2 {
+    color: #9c6644;    
+}
+
+.form form select, .form form input {
+    padding: 1em;    
+    cursor: pointer;
+    border-radius: 5px; 
+    margin-bottom: 1em;    
+    border: none;
+}
+
+.form form div {
+    flex-direction: row;
+}
+
+.form form span {
+    margin: .5em;
+    
+}
+
+.recycle-btn {    
+    color: #EDE0D4!important;
+}
+
+.form-input, .form-select {
+    background-color: #9c6644;
+    color: #EDE0D4!important;
+}
+
+::placeholder {
+    color: #EDE0D4;
+}
+
+#submit {
+    width: 30%;
+    border: none;
+    border-radius: 5px;    
+    margin: auto;
+}
+
+.action-button {
+    background-color: #9c6644!important;   
+    color: #EDE0D4!important;    
+}
+
+.action-button:hover {
+    text-decoration: none;
+}
+
+textarea {
+    height: 150px;
+    border-radius: 5px;     
+    padding: 1em;
+}
+
+.form-element-container {
+    margin: .5em;
+    
+}
+
+
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+
+[type=radio] + img {
+    cursor: pointer;
+  }
+  
+
+[type=radio]:checked + img {
+    outline: 2px solid #7f5539;
+}
+
+.input-completado {
+    background-color: var(--color-2);
+    color: var(--color-5)!important;
+  }
+
+.dark-brown-link {
+    color: var(--color-5)!important;
+}
+
